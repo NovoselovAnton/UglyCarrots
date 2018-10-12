@@ -5,7 +5,7 @@
 			position: absolute;
 			z-index: 1;
 			display: grid;
-           grid-template-columns: 1fr 5fr;
+            grid-template-columns: 50px 1fr 1fr 1fr 50px;
             grid-template-rows: 20% 20% 20% 20% 20%;
 
 			}
@@ -15,7 +15,7 @@
 			width: 658px;
 			height: 658px;
 			display: grid;
-            grid-template-columns: 1fr 5fr;
+            grid-template-columns: 50px 1fr 1fr 1fr 50px;
             grid-template-rows: 20% 20% 20% 20% 20%;
 			}
 #all 		{ 		
@@ -35,8 +35,7 @@
 			background-size: calc(10vw + 5px);
 			position: relative;
 			z-index: 5;
-			grid-column: 2;
-  grid-row: 1;
+			grid-area: 1 / 1 / 6 / 2;
 		}
 #carrot2 	{
 			background-image: url("https://cssgridgarden.com/images/carrots.svg");
@@ -54,8 +53,7 @@
 			position: relative;
 			z-index: 5;
 			background-size: calc(10vw + 5px);
-			grid-row: 1;
-			grid-column: 1;
+			grid-area: 1 / 5 / 6 / 6;
 			}
 #waterflow	{
 			background-color: #0174DF;
@@ -63,8 +61,7 @@
 			height: 100%;
 			position: relative;
 			z-index: 2;
-			grid-column: 2;
-  			grid-row: 1;
+			grid-area: 1 / 1 / 6 / 2;
 			}
 #waterflow2	{
 			background-color: #0174DF;
@@ -81,6 +78,5 @@
 			height: 100%;
 			position: relative;
 			z-index: 2;
-			grid-column: 1;
-			grid-row: 1;
+			grid-area: 1 / 5 / 6 / 6;
 			}
