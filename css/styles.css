@@ -35,6 +35,9 @@
 			background-size: calc(10vw + 5px);
 			position: relative;
 			z-index: 5;
+			
+			grid-column-start: 2;
+			grid-column-end: span 2;
 			}
 #notcarrot  {
 			background-image: url("https://cssgridgarden.com/images/weeds.svg");
@@ -43,7 +46,6 @@
 			position: relative;
 			z-index: 5;
 			background-size: calc(10vw + 5px);
-			grid-column-start: -3;
 			
 			}
 #waterflow	{
@@ -52,6 +54,8 @@
 			height: 100%;
 			position: relative;
 			z-index: 2;
+			grid-column-start: 2;
+			grid-column-end: span 2;
 			}
 #poison 	{
 			background-color: #6A0888;
@@ -59,5 +63,5 @@
 			height: 100%;
 			position: relative;
 			z-index: 2;
-			grid-column-start: -3;
+
 			}
