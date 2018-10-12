@@ -35,8 +35,8 @@
 			background-size: calc(10vw + 5px);
 			position: relative;
 			z-index: 5;
-			grid-column-start: 5;
-			grid-column-end: 2;
+			grid-column-start: 1;
+			grid-column-end: -2;
 			}
 #notcarrot  {
 			background-image: url("https://cssgridgarden.com/images/weeds.svg");
@@ -53,8 +53,8 @@
 			height: 100%;
 			position: relative;
 			z-index: 2;
-			grid-column-start: 5;
-			grid-column-end: 2;
+			grid-column-start: 1;
+			grid-column-end: -2;
 			}
 #poison 	{
 			background-color: #6A0888;
