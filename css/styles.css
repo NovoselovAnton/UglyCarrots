@@ -1,0 +1,72 @@
+#garden 	{ 
+			background-color: #523D1F;
+			width: 658px;
+			height: 658px;
+			position: absolute;
+			z-index: 1;
+			display: grid;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+            grid-template-rows: 20% 20% 20% 20% 20%;
+
+			}
+#background {
+			z-index: 5;
+			position: absolute;
+			width: 658px;
+			height: 658px;
+			display: grid;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+            grid-template-rows: 20% 20% 20% 20% 20%;
+			}
+#all 		{ 		
+			width: 658px;
+			height: 658px;
+			}
+#grid       {
+			width: 100%;
+			height: 100%;
+			position: relative;
+			z-index: 5;
+			}
+#carrot 	{
+			background-image: url("https://cssgridgarden.com/images/carrots.svg");
+			width: 100%;
+			height: 100%;
+			background-size: calc(10vw + 5px);
+			position: relative;
+			z-index: 5;
+			}
+#cargrid	{ 
+			width: 100%; 
+			height: 100%; 
+			position: relative; 
+			z-index: 5; 
+			grid-column-start: 3;
+			}
+#notcarrot  {
+			background-image: url("https://cssgridgarden.com/images/weeds.svg");
+			width: 100%;
+			height: 100%;
+			position: relative;
+			z-index: 5;
+			background-size: calc(10vw + 5px);
+			
+			
+			}
+#waterflow	{
+			background-color: #0174DF;
+			width: 100%;
+			height: 100%;
+			position: relative;
+			z-index: 2;
+			grid-column-start: 3;
+			}
+#poison 	{
+			background-color: #6A0888;
+			width: 100%;
+			height: 100%;
+			position: relative;
+			z-index: 2;
+			
+
+			}
